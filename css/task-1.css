@@ -1,0 +1,58 @@
+#categories {
+    border-radius: 8px;
+    padding: 24px;
+    width: 440px;
+    height: 888px;
+    background: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+ul > li > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.item {
+    border-radius: 8px;
+    padding: 16px; 
+    width: 392px;
+    background: #f6f6fe;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-type: none;
+}
+
+li >  ul > li {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 40px; 
+    border: 1px solid #808080;
+    border-radius: 4px;
+    font-family: "Montserrat",sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    }
+
+    li {
+        padding: 8px 16px;
+    }
